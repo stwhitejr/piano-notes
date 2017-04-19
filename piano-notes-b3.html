@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="how to read piano music notes, piano tab, Piano Notes, notes on a piano, read piano notes, read piano sheet music, piano game" />
+<meta name="description" content="Play the Piano Game to help memorize the notes of the piano." />
+<title>Piano Game - Read Piano Notes</title>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" src="jquery-1.3.2.min.js"></script> 
+<script type="text/javascript" src="jquery.pngFix.js"></script> 
+<script type="text/javascript"> 
+    $(document).ready(function(){ 
+        $(document).pngFix(); 
+    }); 
+</script> 
+<style type="text/css">
+#musicNote {
+	top: 255px;
+	left:-10px;
+}
+</style>
+<!--[if IE]>
+<style type="text/css" media="all">
+#noteAnswer {
+	padding-top:35px;	
+}
+#form {
+	margin-bottom:10px;
+}
+</style>
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10282856-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body onload="document.getElementById('noteAnswer').focus()">
+
+<div id="wrap">
+<div id="header">
+<h1>Piano Game</h1>
+<p id="intro">How to read piano music notes. <strong>Name the note.</strong> &nbsp; <a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    
+    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="www.piano-game.com" layout="button_count" width="18"></fb:like></p>
+
+ <div id="headerAd">
+    <script type="text/javascript"><!--
+google_ad_client = "pub-1627926156355773";
+/* 728x15,Piano-Game Links Ad */
+google_ad_slot = "6521875616";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+
+	<div id="staff">
+    	<img src="images/bNote.png" id="musicNote" alt="Piano Notes" title="Piano Notes" />
+</div>
+    <div id="questionBox">
+    <h2>What note is this?</h2>
+    <div id="form">
+    <form name="noteForm" onSubmit="return false;">
+    	<div id="formInput"><input type="text" name="noteAnswer" maxlength="1" onkeyup="if ((event.keyCode||event.which) == 13){ testResultsBassThree(this.form); }" id="noteAnswer" /></div>
+        <div id="formSubmit"> <INPUT TYPE="button" id="noteSubmit" NAME="button" onClick="testResultsBassThree(this.form)"></div></form>
+    <br class="clearFloat" />
+<div id="stuck">Stuck? <a href="piano-notes-b4.html" rel="nofollow">Skip this Note</a></div>
+</div>
+    <div id="incorrect">Sorry that's wrong. Try again.</div>
+    <div id="correct">Correct!
+    <!--<script language="javascript">
+nextPage[14]="piano-notes-b7.html";
+document.write('<a href="' + nextPage[random_num] + '">');
+	</script><img src="images/correct.png" alt="Now you're making music." title="Now you're making music." /></a>-->
+    </div>
+    </div>
+    <br class="clearFloat" />
+       <div id="ADBlock">
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1627926156355773";
+/* PIano Game 250x250 */
+google_ad_slot = "3768159246";
+google_ad_width = 250;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+    </div><!--ebd adblock-->
+    
+    
+    <div id="pianoNotes">
+    
+        <h3>Notes on a Staff</h3>
+    
+    <p>
+    Use this game to memorize the notes of the piano or keyboard. The purpose of this music game is to help beginner pianists learn how to read sheet music and remember the names for all the keys. This is a great way to learn <em>how to read piano keys</em>. You'll be able to understand how to <em>read sheet music</em> in no time!
+    </p>
+    <div class="divider"></div>
+    
+    <h3>Piano Keys</h3>
+    
+    <p>
+    If you need help learning the keyboard keys use this <a href="images/piano-notes-chart.gif" target="_blank">piano notes chart</a> to help memorize the notes. Remember you learn music the same way for a piano or keyboard. Practice makes perfect so don't forgot to add this game to your favorites.
+    </p>
+    <div class="divider"></div>
+    </div>
+    <br class="clearFloat" />
+    
+</div>
+
+</body>
+</html>

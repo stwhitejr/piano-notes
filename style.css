@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+a:link, a:visited, a:hover, a:active {
+	text-decoration:underline;
+	color:#06F;	
+}
+a:hover {
+	text-decoration:none;
+	color:#06F;		
+}
+
+#wrap {
+	width: 800px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+img {
+	border:none;	
+}
+#staff {
+	background-image: url(images/staff.gif);
+	float: left;
+	background-repeat:no-repeat;
+	height: 411px;
+	width: 219px;
+	margin: 0 20px 0 0;
+	position: relative;
+	padding: 0 0 0 180px;
+}
+
+#musicNote {
+	position: relative;
+}
+#questionBox {
+	float: right;
+	width: 360px;
+	padding-top:20px;
+	background-image: url(images/formBg.jpg);
+	background-repeat: no-repeat;
+	height: 340px;
+	margin-top: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #9E9E9E;
+	text-shadow: 2px 2px 2px #CCC;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #9E9E9E;
+	text-shadow: 1px 1px 2px #CCC;
+}
+p.intro {
+	color: #666;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-style: italic;
+	margin: 0px;
+}
+p {
+	color: #666;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	margin: 5px 0;
+}
+
+#header {
+	margin: 0 0 0px 0;
+	text-align: center;
+}
+#pianoNotes {
+	width: 450px;
+	margin: 40px 0 0 0;
+	float: left;
+}
+#socialMedia {
+	margin-top: 14px;
+}
+
+
+
+h2 {
+	font-size: 60px;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #9E9E9E;
+	text-shadow: 2px 2px 2px #CCC;
+	text-align: center;
+}
+
+
+#correct {
+	text-align: center;
+	display: none;
+	margin:0;
+	height: 31px;
+	font-size: 25px;
+	color: #666;
+}
+#stuck {
+	position: relative;
+	top: 95px;
+	font-size: 11px;
+}
+
+#incorrect {
+	text-align: center;
+	display: none;
+	margin:0;
+	height: 31px;
+	font-size: 16px;
+	color: #666;
+}
+#form {
+	margin:30px auto 10px auto;
+	text-align:center;
+	width: 168px;
+}
+#formInput {
+	float: left;
+	width: 80px;
+}
+#formSubmit {
+	float: left;
+	width: 80px;
+	margin-top: 28px;
+}
+
+.clearFloat {
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 0px;
+}
+#noteAnswer {
+	border:0;
+	margin:0;
+	padding:28px 5px 11px 5px;
+	width:69px;
+	height:36px;
+	font-size:25px;
+	color:#666;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-variant: small-caps;
+	background-image: url(images/form.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+
+#noteSubmit {
+	border:0;
+	margin:0 0 0 10px;
+	padding:0;
+	background: url(images/enter.gif) no-repeat;
+	width: 78px;
+	height:34px;
+	cursor:pointer;
+}
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #666;
+	margin: 0 0 10px 0;
+}
+.divider {
+	background-image: url(images/divider.gif);
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 450px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-position: center;
+}
+input:focus {
+	border:none;	
+}
+#headerAd {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#ADBlock {
+	float: right;
+	height: 250px;
+	width: 250px;
+	margin-top: 40px;
+	margin-right: 45px;
+}
